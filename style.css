@@ -1,8 +1,11 @@
 /* 通用样式 */
 #powerwater-panel {
     position: fixed;
-    top: 5vh;
-    right: 5vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: auto;
+    bottom: auto;
     width: 90vw;           /* 默认宽度占屏幕 90% */
     max-width: 480px;      /* 最大宽度 */
     min-width: 280px;      /* 最小宽度 */
