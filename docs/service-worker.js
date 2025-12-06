@@ -1,10 +1,11 @@
 const CACHE_NAME = 'powerwater-cache-v1';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/app.obf.js',
-    '/style.css',
-    '/icon.png'
+    './',
+    './index.html',
+    './app.obf.js',
+    './style.css',
+    './icon-512.png',
+    './icon-192.png'
 ];
 
 // 安装阶段
