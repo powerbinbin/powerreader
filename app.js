@@ -222,6 +222,14 @@
 
     document.body.appendChild(panel);
 
+    // ====== 初始居中（像素定位） ======
+    const rect = panel.getBoundingClientRect();
+    panel.style.left = '50%';
+    panel.style.top  = '50%';
+    panel.style.transform = 'translate(-50%, -50%)';
+	panel.style.right = 'auto';
+    panel.style.bottom = 'auto';
+
     // ======================
     // 拖动
     // ======================
