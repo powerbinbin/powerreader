@@ -23,6 +23,32 @@
     });
 
     // ======================
+    // 顶部品牌区
+    // ======================
+    const header=document.createElement("div");
+    Object.assign(header.style,{
+        position:"relative",
+        background:"linear-gradient(135deg,#1e90ff,#00bfff)",
+        color:"#fff",
+        textAlign:"center",
+        padding:"24px 16px 60px 16px",
+        fontSize:"20px",
+        fontWeight:"900",
+        letterSpacing:"2px",
+        borderBottom:"2px solid rgba(0,0,0,0.1)",
+        textShadow:"2px 2px 6px rgba(0,0,0,0.4)",
+        display:"flex",
+        flexDirection:"column",
+        alignItems:"center",
+        justifyContent:"center",
+        fontFamily:"'Georgia','Times New Roman',serif",
+        borderBottomLeftRadius:"16px",
+        borderBottomRightRadius:"16px"
+    });
+    header.textContent="PowerWater";
+    panel.appendChild(header);
+
+    // ======================
     // 控制区
     // ======================
     const controlArea=document.createElement("div");
