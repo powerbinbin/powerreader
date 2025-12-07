@@ -3,7 +3,6 @@
     // 创建悬浮控制台
     // ======================
     const panel=document.createElement("div");
-    // 给 panel 添加 id，方便 CSS 选择器
     panel.id = "powerwater-panel";
     Object.assign(panel.style,{
         position:"fixed",
@@ -46,63 +45,7 @@
         borderBottomLeftRadius:"16px",
         borderBottomRightRadius:"16px"
     });
-
-    const svgNS="http://www.w3.org/2000/svg";
-    for(let i=0;i<3;i++){
-        const waveSVG=document.createElementNS(svgNS,"svg");
-        waveSVG.setAttribute("width","100%");
-        waveSVG.setAttribute("height","80");
-        waveSVG.setAttribute("viewBox","0 0 400 80");
-        waveSVG.style.position="absolute";
-        waveSVG.style.bottom= `${i*10}px`;
-        waveSVG.style.left="0";
-        waveSVG.style.zIndex=0;
-        const wavePath=document.createElementNS(svgNS,"path");
-        wavePath.setAttribute("fill",`rgba(255,255,255,${0.1 + i*0.1})`);
-        wavePath.setAttribute("d","M0 30 Q 95 60 190 30 T 400 30 V80 H0 Z");
-        waveSVG.appendChild(wavePath);
-        header.appendChild(waveSVG);
-        waveSVG.style.animation=`waveAnim${i} ${4+i}s ease-in-out infinite alternate`;
-    }
-
-    const style=document.createElement("style");
-    style.textContent=`
-        @keyframes waveAnim0 {0%{transform:translateY(0px);}100%{transform:translateY(6px);}}
-        @keyframes waveAnim1 {0%{transform:translateY(0px);}100%{transform:translateY(8px);}}
-        @keyframes waveAnim2 {0%{transform:translateY(0px);}100%{transform:translateY(10px);}}
-        @keyframes floatDrop {0%{transform:translateY(0px) rotate(-15deg);}100%{transform:translateY(10px) rotate(-15deg);}}
-        @keyframes floatDrop2 {0%{transform:translateY(0px) rotate(-10deg);}100%{transform:translateY(12px) rotate(-10deg);}}
-    `;
-    document.head.appendChild(style);
-
-    const dropIcon=document.createElement("span");
-    dropIcon.textContent="💧";
-    dropIcon.style.fontSize="28px";
-    dropIcon.style.position="absolute";
-    dropIcon.style.top="12px";
-    dropIcon.style.left="20%";
-    dropIcon.style.zIndex="2";
-    dropIcon.style.animation="floatDrop 3s infinite alternate ease-in-out";
-    header.appendChild(dropIcon);
-
-    const dropIcon2=document.createElement("span");
-    dropIcon2.textContent="💧";
-    dropIcon2.style.fontSize="20px";
-    dropIcon2.style.position="absolute";
-    dropIcon2.style.top="18px";
-    dropIcon2.style.left="70%";
-    dropIcon2.style.zIndex="2";
-    dropIcon2.style.animation="floatDrop2 4s infinite alternate ease-in-out";
-    header.appendChild(dropIcon2);
-
-    const headerText=document.createElement("span");
-    headerText.textContent="PowerWater";
-    headerText.style.fontStyle="italic";
-    headerText.style.fontSize="28px";
-    headerText.style.textShadow="3px 3px 12px rgba(0,0,0,0.7)";
-    headerText.style.zIndex="2";
-    header.appendChild(headerText);
-
+    header.textContent="PowerWater";
     panel.appendChild(header);
 
     // ======================
@@ -147,35 +90,44 @@
     // 设置区
     const settingWrapper=document.createElement("div");
     settingWrapper.style.display="flex"; settingWrapper.style.flexWrap="wrap"; settingWrapper.style.gap="6px"; 
+    // 次数
     const repeatLabel=document.createTextNode("次数："); 
     const repeatInput=document.createElement("input"); repeatInput.type="number"; repeatInput.value=3; repeatInput.min=1; repeatInput.style.width="50px"; repeatInput.style.borderRadius="6px"; repeatInput.style.border="1px solid rgba(0,0,0,0.2)";
+    // 间隔
     const intervalLabel=document.createTextNode("间隔(s)："); 
     const intervalInput=document.createElement("input"); intervalInput.type="number"; intervalInput.value=1.5; intervalInput.min=0.5; intervalInput.step=0.5; intervalInput.style.width="60px"; intervalInput.style.borderRadius="6px"; intervalInput.style.border="1px solid rgba(0,0,0,0.2)";
+    // 循环
     const loopLabel=document.createTextNode("循环："); 
     const loopCheckbox=document.createElement("input"); loopCheckbox.type="checkbox";
+    // 语音
     const voiceWrapper=document.createElement("div"); voiceWrapper.style.display="flex"; voiceWrapper.style.alignItems="center"; voiceWrapper.style.gap="4px";
     const voiceLabel=document.createTextNode("语音：");
     const voiceSelect=document.createElement("select"); voiceSelect.style.width="80px";
     ["en-US","en-GB"].forEach(v=>{ const op=document.createElement("option"); op.value=v; op.textContent=v==="en-US"?"美音":"英音"; voiceSelect.appendChild(op); });
     voiceWrapper.appendChild(voiceLabel); voiceWrapper.appendChild(voiceSelect);
+
+    // 行数显示
     const rowStatus=document.createElement("span");
     rowStatus.textContent="正在播放：第0行 / 共0行";
     rowStatus.style.marginLeft="10px";
     rowStatus.style.fontSize="12px";
     rowStatus.style.color="#333";
     rowStatus.style.flexGrow="1";
+
     [repeatLabel, repeatInput, intervalLabel, intervalInput, loopLabel, loopCheckbox, voiceWrapper, rowStatus].forEach(el=>settingWrapper.appendChild(el));
     controlArea.appendChild(settingWrapper);
 
-    // 按钮区
+    // 原来的按钮区
     const buttonWrapper=document.createElement("div");
     buttonWrapper.style.display="flex";
     buttonWrapper.style.justifyContent="space-between";
     buttonWrapper.style.marginTop="8px";
     buttonWrapper.style.gap="8px";
+
     const ABtn=document.createElement("button"); ABtn.textContent="开始";
     const BBtn=document.createElement("button"); BBtn.textContent="开始";
     const repeatBtn=document.createElement("button"); repeatBtn.textContent="复读";
+
     [ABtn,BBtn,repeatBtn].forEach(btn=>{
         btn.style.flex="1";
         btn.style.padding="12px 0";
@@ -193,81 +145,45 @@
     buttonWrapper.appendChild(repeatBtn);
     controlArea.appendChild(buttonWrapper);
 
+    // ======================
+    // 新增按钮：上一行⬅️ 下一行➡️ 倍速⚡
+    // ======================
+    const navWrapper=document.createElement("div");
+    navWrapper.style.display="flex";
+    navWrapper.style.justifyContent="center";
+    navWrapper.style.marginTop="8px";
+    navWrapper.style.gap="12px";
+
+    const prevBtn=document.createElement("button"); prevBtn.textContent="⬅️";
+    const nextBtn=document.createElement("button"); nextBtn.textContent="➡️";
+    const speedBtn=document.createElement("button"); speedBtn.textContent="⚡";
+
+    [prevBtn,nextBtn,speedBtn].forEach(btn=>{
+        btn.style.width="60px";
+        btn.style.height="40px";
+        btn.style.fontSize="20px";
+        btn.style.borderRadius="8px";
+        btn.style.border="1px solid rgba(0,0,0,0.2)";
+        btn.style.cursor="pointer";
+        btn.style.background="linear-gradient(135deg,#fefefe,#e6f7ff)";
+        btn.style.transition="0.2s all";
+        btn.onmouseover=()=>btn.style.background="linear-gradient(135deg,#d0eaff,#a0d4ff)";
+        btn.onmouseout=()=>btn.style.background="linear-gradient(135deg,#fefefe,#e6f7ff)";
+    });
+    navWrapper.appendChild(prevBtn);
+    navWrapper.appendChild(nextBtn);
+    navWrapper.appendChild(speedBtn);
+    controlArea.appendChild(navWrapper);
+
     panel.appendChild(controlArea);
-
-    // ---------------- 新增按钮排 ----------------
-    const navBtnRow = document.createElement("div");
-    Object.assign(navBtnRow.style, {
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "space-around",
-        alignItems: "center",
-        padding: "8px 0",
-        marginTop: "8px",
-        background: "rgba(255,255,255,0.9)"
-    });
-
-    function createIconButton(symbol, title, onClick){
-        const btn = document.createElement("div");
-        btn.textContent = symbol;
-        btn.title = title;
-        Object.assign(btn.style, {
-            fontSize: "22px",
-            cursor: "pointer",
-            padding: "6px 12px",
-            borderRadius: "10px",
-            userSelect: "none",
-            transition: "0.25s",
-        });
-        btn.onmouseenter = () => btn.style.background = "rgba(0,0,0,0.08)";
-        btn.onmouseleave = () => btn.style.background = "transparent";
-        btn.onclick = onClick;
-        return btn;
-    }
-
-    const btnLeft  = createIconButton("⬅️","上一个", ()=>{ 
-        if(words.length) wordIndex = Math.max(wordIndex-1,0); speakNext(); 
-    });
-    const btnRight = createIconButton("➡️","下一个", ()=>{ 
-        if(words.length) wordIndex = Math.min(wordIndex+1,words.length-1); speakNext(); 
-    });
-    const btnBoost = createIconButton("⚡","倍速", ()=>{ 
-        const speeds=[0.75,1,1.25,1.5,2];
-        let curIndex = speeds.indexOf(parseFloat(repeatInput.dataset.speed || 1));
-        curIndex = (curIndex+1)%speeds.length;
-        const newSpeed = speeds[curIndex];
-        repeatInput.dataset.speed = newSpeed;
-        speechSynthesis.cancel();
-        speakNext();
-        alert(`倍速设置为: ${newSpeed}x`);
-    });
-
-    navBtnRow.appendChild(btnLeft);
-    navBtnRow.appendChild(btnRight);
-    navBtnRow.appendChild(btnBoost);
-    panel.appendChild(navBtnRow);
-
-    // ======================
-    // 进度条
-    // ======================
-    const progressBar=document.createElement("input");
-    progressBar.type="range"; progressBar.min=0; progressBar.value=0; progressBar.step=1;
-    Object.assign(progressBar.style,{
-        width:"calc(100% - 28px)",
-        margin:"0 14px 10px 14px",
-        accentColor:"#1e90ff",
-        cursor:"pointer"
-    });
-    panel.appendChild(progressBar);
-
     document.body.appendChild(panel);
 
     // ======================
-    // 拖动逻辑
+    // 拖动逻辑（保持原样）
     // ======================
     let isDragging=false, offsetX=0, offsetY=0;
     panel.addEventListener('mousedown', e=>{
-        if(["BUTTON","INPUT","SELECT","DIV"].includes(e.target.tagName)) return;
+        if(["BUTTON","INPUT","SELECT"].includes(e.target.tagName)) return;
         isDragging=true; offsetX=e.clientX-panel.offsetLeft; offsetY=e.clientY-panel.offsetTop;
         panel.style.cursor="move"; e.preventDefault();
     });
@@ -285,6 +201,8 @@
     let words=[], wordIndex=0, repeatCount=0;
     let isPaused=false, isStopped=false, isRepeating=false;
     let speech=null;
+    let speedRates=[0.75,1,1.25,1.5,2]; 
+    let speedIndex=1; // 默认 1.0
 
     function updateProgress(){ 
         progressBar.max=words.length>0?words.length-1:0; 
@@ -292,6 +210,9 @@
         rowStatus.textContent=`正在播放：第${wordIndex+1}行 / 共${words.length}行`;
     }
 
+    // ======================
+    // 文件加载
+    // ======================
     hiddenInput.onchange=()=>{
         const file=hiddenInput.files[0]; 
         if(!file) return;
@@ -306,6 +227,9 @@
         reader.readAsText(file);
     };
 
+    // ======================
+    // 朗读函数
+    // ======================
     function speakNext(){
         if(!words.length || isPaused || isStopped) return;
         const sentence=words[wordIndex];
@@ -313,7 +237,7 @@
         if(speech) speechSynthesis.cancel();
         speech=new SpeechSynthesisUtterance(sentence);
         speech.lang=voiceSelect.value;
-        speech.rate=parseFloat(repeatInput.dataset.speed||1);
+        speech.rate = speedRates[speedIndex];
         speech.onend=()=>{
             if(isPaused || isStopped) return;
             repeatCount++;
@@ -332,36 +256,33 @@
     }
 
     // ======================
-    // 现有按钮逻辑
+    // 原有按钮逻辑（保持原样）
     // ======================
-    ABtn.onclick=()=>{ 
-        if(ABtn.textContent==="开始" || ABtn.textContent==="继续"){ 
-            isStopped=false; isPaused=false; 
-            ABtn.textContent="暂停"; BBtn.textContent="停止"; repeatBtn.textContent="复读"; 
-            setTimeout(()=>speakNext(),0); 
-        } else if(ABtn.textContent==="暂停"){ 
-            isPaused=true; ABtn.textContent="继续"; BBtn.textContent="开始"; speechSynthesis.pause();
-        }
-    };
-    BBtn.onclick=()=>{ 
-        if(BBtn.textContent==="开始"){ 
-            isStopped=false; isPaused=false; wordIndex=0; repeatCount=0; ABtn.textContent="暂停"; BBtn.textContent="停止"; repeatBtn.textContent="复读"; 
-            setTimeout(()=>speakNext(),0); 
-        } else if(BBtn.textContent==="停止"){ 
-            isStopped=true; isPaused=false; speechSynthesis.cancel(); ABtn.textContent="继续"; BBtn.textContent="开始";
-        }
-    };
-    repeatBtn.onclick=()=>{ 
-        if(!words.length || isPaused || isStopped) return;
-        isRepeating=!isRepeating;
-        repeatBtn.textContent=isRepeating?"取消复读":"复读";
-        if(isRepeating){ repeatCount=0; speechSynthesis.cancel(); setTimeout(()=>speakNext(),0); }
-    };
-    progressBar.addEventListener("input", ()=>{
+    ABtn.onclick=()=>{ if(ABtn.textContent==="开始"||ABtn.textContent==="继续"){ isStopped=false; isPaused=false; ABtn.textContent="暂停"; BBtn.textContent="停止"; repeatBtn.textContent="复读"; setTimeout(()=>speakNext(),0); } else if(ABtn.textContent==="暂停"){ isPaused=true; ABtn.textContent="继续"; BBtn.textContent="开始"; speechSynthesis.pause(); } };
+    BBtn.onclick=()=>{ if(BBtn.textContent==="开始"){ isStopped=false; isPaused=false; wordIndex=0; repeatCount=0; ABtn.textContent="暂停"; BBtn.textContent="停止"; repeatBtn.textContent="复读"; setTimeout(()=>speakNext(),0); } else if(BBtn.textContent==="停止"){ isStopped=true; isPaused=false; speechSynthesis.cancel(); ABtn.textContent="继续"; BBtn.textContent="开始"; } };
+    repeatBtn.onclick=()=>{ if(!words.length || isPaused || isStopped) return; isRepeating=!isRepeating; repeatBtn.textContent=isRepeating?"取消复读":"复读"; if(isRepeating){ repeatCount=0; speechSynthesis.cancel(); setTimeout(()=>speakNext(),0); } };
+    const progressBar=document.createElement("input"); progressBar.type="range"; progressBar.min=0; progressBar.value=0; progressBar.step=1;
+    Object.assign(progressBar.style,{ width:"calc(100% - 28px)", margin:"0 14px 10px 14px", accentColor:"#1e90ff", cursor:"pointer" });
+    panel.appendChild(progressBar);
+    progressBar.addEventListener("input", ()=>{ if(!words.length) return; wordIndex=parseInt(progressBar.value,10); repeatCount=0; if(!isPaused && !isStopped){ speechSynthesis.cancel(); setTimeout(()=>speakNext(),0); } });
+
+    // ======================
+    // 新按钮逻辑
+    // ======================
+    prevBtn.onclick=()=>{
         if(!words.length) return;
-        wordIndex=parseInt(progressBar.value,10); repeatCount=0;
-        if(!isPaused && !isStopped){ speechSynthesis.cancel(); setTimeout(()=>speakNext(),0); }
-    });
+        wordIndex=Math.max(0, wordIndex-1);
+        repeatCount=0; speechSynthesis.cancel(); setTimeout(()=>speakNext(),0);
+    };
+    nextBtn.onclick=()=>{
+        if(!words.length) return;
+        wordIndex=Math.min(words.length-1, wordIndex+1);
+        repeatCount=0; speechSynthesis.cancel(); setTimeout(()=>speakNext(),0);
+    };
+    speedBtn.onclick=()=>{
+        speedIndex = (speedIndex+1) % speedRates.length;
+        speedBtn.textContent = `⚡${speedRates[speedIndex]}x`;
+    };
 
 })();
 
