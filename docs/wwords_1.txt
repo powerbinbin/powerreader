@@ -1,0 +1,195 @@
+associate 
+associate professor 
+If you associate someone or something with another thing, the two are connected in your mind. 将 (…和…) 联系起来
+
+integrate 
+We need to integrate the new software with our existing system.
+The school tries to integrate students from different backgrounds.
+
+involve 
+Don't get involved in office politics.
+
+process 
+The hiring process takes about two weeks.
+We need to process these applications quickly.
+
+significant 
+This is a significant improvement in performance.
+Her work had a significant impact on the project.
+
+situation 
+What is the current economic situation? 
+
+particular 
+I'm looking for a particular book. 
+Pay particular attention to this section. 
+
+application
+You must submit your job applications before Friday.
+This software has many applications in education. 这个软件在教育上有很多应用。
+The principle has practical applications. 这一原理有实际应用价值。
+
+intend 
+I intend to finish this work by Friday. 我打算在周五前完成这项工作。
+He didn't intend to hurt anyone. 他无意伤害任何人。
+
+propagate 
+The virus propagates rapidly. 病毒迅速传播。
+The organization propagates awareness about climate change. 该组织宣传气候变化意识。
+Many plants can propagate by cuttings. 很多植物可以通过扦插繁殖。
+
+service 
+The hotel offers excellent service. 这家酒店提供优质服务。
+My car needs servicing. 我的车需要维修。
+He joined the military service in 2010.
+
+separate 
+Keep work and personal life separate. 把工作和个人生活分开。
+They decided to separate after 10 years of marriage. 他们决定离婚。
+Separate the eggs into two bowls. 把鸡蛋分到两个碗里。
+
+deserialize 
+You need to deserialize the JSON string before using it. 
+The server deserializes incoming data automatically. 服务器会自动反序列化接收的数据。
+
+corresponding 
+Match each question with its corresponding answer. 将每个问题与对应的答案匹配。
+The temperature rose, and the corresponding pressure increased. 温度升高，相应的压力也增加。
+
+complete 
+Please complete the form. 请填写表格。
+He has a complete set of the books. 他有一整套书。
+The task was completed successfully. 任务顺利完成。
+If something is complete, it has been finished. 
+To complete a set or group means to provide the last item that is needed to make it a full set or group.
+The project is nearing completion.
+We were in complete agreement. 
+It came as a complete surprise.
+
+I got a chance to resume on the activity which we discussed last time, separation of KVDB stats for PCC and PCG to re-assess the feasibility. 
+We can go over the findings with the latest load tests which have been captured in the slides.
+
+virus 
+The virus spreads quickly. 病毒传播很快。
+My computer got infected with a virus. 我的电脑中了病毒。
+
+awareness         
+The campaign raises awareness about climate change. 宣传活动提高了公众对气候变化的意识。
+Awareness of personal safety is important. 个人安全意识很重要。
+She has a good awareness of social issues. 她对社会问题很有认识。
+
+strategy 
+Our marketing strategy focuses on social media. 我们的营销策略集中在社交媒体。
+Chess requires careful strategy. 国际象棋需要精心的策略。
+They developed a long-term strategy for growth. 他们制定了长期发展战略。
+
+determines 
+Price often determines demand. 价格通常决定需求。
+Hard work determines success. 努力决定成败。
+Genetics determines eye color. 遗传决定眼睛颜色。
+
+wrap 
+She wrapped the baby in a blanket. 她用毯子把婴儿裹起来。
+The chocolate is individually wrapped. 巧克力是单独包装的。
+
+resume 
+Classes will resume next Monday. 课程下周一继续。
+He resumed his work after the break. 休息后，他恢复工作。
+Negotiations resumed after lunch. 午餐后谈判恢复。
+
+assess 
+We need to assess the risks before investing. 投资前我们需要评估风险。
+The teacher will assess your performance. 老师会评价你的表现。
+Damage was assessed at $10,000.
+
+feasibility 
+We are studying the feasibility of the project. 我们正在研究该项目的可行性。
+The feasibility of the plan is under review. 该计划的可行性正在评估。
+
+slide 
+Please look at the next slide. 请看下一张幻灯片。
+The child slid down the slide. 孩子从滑梯上滑下。
+Profits have slid in the past quarter. 利润在上一季度下降了。
+
+demand 
+There is high demand for electric cars. 电动车需求很高。
+The job demands a lot of patience. 这份工作要求很有耐心。
+Consumers demand better service. 消费者要求更好的服务。
+
+principle 
+Honesty is an important principle. 诚实是一条重要原则。
+The principle of supply and demand governs the market. 供需原理支配市场。
+He acted according to his principles. 他按照自己的原则行事。
+
+raise
+They raised funds for charity. 他们为慈善筹款。
+He raised his hand to ask a question. 他举手提问。
+The company plans to raise prices next year. 公司计划明年涨价
+
+spread 
+The fire spread quickly. 火迅速蔓延。
+Rumors spread fast on social media. 谣言在社交媒体上迅速传播。
+She spread butter on the bread. 她在面包上涂黄油。
+
+infected 
+The wound became infected. 伤口感染了。
+Many computers were infected with malware. 许多电脑感染了恶意软件。
+He was infected with the flu. 他感染了流感。
+
+Imagine 
+Imagine a world without war. 想象一个没有战争的世界。
+Can you imagine living in the 18th century? 你能想象生活在十八世纪吗？
+I can't imagine him doing that. 我无法想象他会那样做。
+
+profit 
+The company made a huge profit last year. 公司去年赚了大笔利润。
+We need to increase our profit margin. 我们需要提高利润率。
+He sold his stocks for a profit. 他卖掉股票赚了一笔。
+
+supply
+The factory supplies goods to many stores. 工厂向许多商店供货。
+Water supply is limited in this area. 该地区水供应有限。
+They supplied food and medicine to the victims. 他们向受灾者提供了食物和药品。
+
+different between require and demand.
+The job demands a lot of patience. 这份工作要求耐心。
+There is high demand for nurses. 护士需求量大。
+
+This course requires basic English. 这门课程需要基础英语。
+
+Meeting the safety requirements is mandatory. 满足安全要求是必须的。
+
+aggregate
+These small contributions aggregate into a large sum. 这些小额捐款汇聚成一大笔款项。
+小进步叠加成一大步：
+Aggregate demand determines economic output. 总需求决定经济产出。
+
+present 
+At present 目前 ; 现在
+present value [金融] 现值 ; 现时值 ; 当前值
+present situation 现状
+How do you read the present situation? 你对目前的形势有何看法？
+How long have you been in your present job? 你干现在这工作多长时间了？
+You use present to describe things and people that exist now, rather than those that existed in the past or those that may exist in the future. 
+The present is the period of time that we are in now and the things that are happening now. 
+
+effectively
+effective demand [经] 有效需求 ; 有效需量 
+effective range [电] 有效范围 ; 有效量限 ; 测量范围
+Something that is effective works well and produces the results that were intended.
+Services need to be organized more effectively than they are at present.
+He has now taken effective control of the country. 他目前已有效地控制了这个国家。
+It has been demonstrated that this drug is effective. 这药已证实是有效的。
+This strategy effectively reduces costs. 
+
+individually 
+These paints can be used individually or in combination. 这些涂料可单独或混合使用。
+We'd better go in a group, not individually. 最好集体去，不要单个儿去。
+The manager spoke to them all individually. 经理逐一和他们各人谈话。
+The items are individually wrapped. 这些物品是单独包装的。
+
+deserialized反序列化的
+serialized   序列化的
+corresponding
+
+
