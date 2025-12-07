@@ -7,11 +7,8 @@
     panel.id = "powerwater-panel";
     Object.assign(panel.style,{
         position:"fixed",
-        top:"50%",
-        left:"50%",
-        right:"auto",
-        bottom:"auto",
-        transform: "translate(-50%, -50%)",
+        top:"40px",
+        right:"40px",
         width:"400px",
         fontSize:"14px",
         borderRadius:"16px",
@@ -51,7 +48,6 @@
     });
 
     const svgNS="http://www.w3.org/2000/svg";
-    // 使用简单CSS动画替代JS path animate
     for(let i=0;i<3;i++){
         const waveSVG=document.createElementNS(svgNS,"svg");
         waveSVG.setAttribute("width","100%");
@@ -66,15 +62,14 @@
         wavePath.setAttribute("d","M0 30 Q 95 60 190 30 T 400 30 V80 H0 Z");
         waveSVG.appendChild(wavePath);
         header.appendChild(waveSVG);
-        // CSS动画
         waveSVG.style.animation=`waveAnim${i} ${4+i}s ease-in-out infinite alternate`;
     }
 
     const style=document.createElement("style");
     style.textContent=`
-        @keyframes waveAnim0 { 0%{transform:translateY(0px);} 100%{transform:translateY(6px);} }
-        @keyframes waveAnim1 { 0%{transform:translateY(0px);} 100%{transform:translateY(8px);} }
-        @keyframes waveAnim2 { 0%{transform:translateY(0px);} 100%{transform:translateY(10px);} }
+        @keyframes waveAnim0 {0%{transform:translateY(0px);}100%{transform:translateY(6px);}}
+        @keyframes waveAnim1 {0%{transform:translateY(0px);}100%{transform:translateY(8px);}}
+        @keyframes waveAnim2 {0%{transform:translateY(0px);}100%{transform:translateY(10px);}}
         @keyframes floatDrop {0%{transform:translateY(0px) rotate(-15deg);}100%{transform:translateY(10px) rotate(-15deg);}}
         @keyframes floatDrop2 {0%{transform:translateY(0px) rotate(-10deg);}100%{transform:translateY(12px) rotate(-10deg);}}
     `;
@@ -89,6 +84,7 @@
     dropIcon.style.zIndex="2";
     dropIcon.style.animation="floatDrop 3s infinite alternate ease-in-out";
     header.appendChild(dropIcon);
+
     const dropIcon2=document.createElement("span");
     dropIcon2.textContent="💧";
     dropIcon2.style.fontSize="20px";
@@ -151,30 +147,23 @@
     // 设置区
     const settingWrapper=document.createElement("div");
     settingWrapper.style.display="flex"; settingWrapper.style.flexWrap="wrap"; settingWrapper.style.gap="6px"; 
-    // 次数
     const repeatLabel=document.createTextNode("次数："); 
     const repeatInput=document.createElement("input"); repeatInput.type="number"; repeatInput.value=3; repeatInput.min=1; repeatInput.style.width="50px"; repeatInput.style.borderRadius="6px"; repeatInput.style.border="1px solid rgba(0,0,0,0.2)";
-    // 间隔
     const intervalLabel=document.createTextNode("间隔(s)："); 
     const intervalInput=document.createElement("input"); intervalInput.type="number"; intervalInput.value=1.5; intervalInput.min=0.5; intervalInput.step=0.5; intervalInput.style.width="60px"; intervalInput.style.borderRadius="6px"; intervalInput.style.border="1px solid rgba(0,0,0,0.2)";
-    // 循环
     const loopLabel=document.createTextNode("循环："); 
     const loopCheckbox=document.createElement("input"); loopCheckbox.type="checkbox";
-    // 语音
     const voiceWrapper=document.createElement("div"); voiceWrapper.style.display="flex"; voiceWrapper.style.alignItems="center"; voiceWrapper.style.gap="4px";
     const voiceLabel=document.createTextNode("语音：");
     const voiceSelect=document.createElement("select"); voiceSelect.style.width="80px";
     ["en-US","en-GB"].forEach(v=>{ const op=document.createElement("option"); op.value=v; op.textContent=v==="en-US"?"美音":"英音"; voiceSelect.appendChild(op); });
     voiceWrapper.appendChild(voiceLabel); voiceWrapper.appendChild(voiceSelect);
-
-    // 行数显示
     const rowStatus=document.createElement("span");
     rowStatus.textContent="正在播放：第0行 / 共0行";
     rowStatus.style.marginLeft="10px";
     rowStatus.style.fontSize="12px";
     rowStatus.style.color="#333";
     rowStatus.style.flexGrow="1";
-
     [repeatLabel, repeatInput, intervalLabel, intervalInput, loopLabel, loopCheckbox, voiceWrapper, rowStatus].forEach(el=>settingWrapper.appendChild(el));
     controlArea.appendChild(settingWrapper);
 
@@ -184,11 +173,9 @@
     buttonWrapper.style.justifyContent="space-between";
     buttonWrapper.style.marginTop="8px";
     buttonWrapper.style.gap="8px";
-
     const ABtn=document.createElement("button"); ABtn.textContent="开始";
     const BBtn=document.createElement("button"); BBtn.textContent="开始";
     const repeatBtn=document.createElement("button"); repeatBtn.textContent="复读";
-
     [ABtn,BBtn,repeatBtn].forEach(btn=>{
         btn.style.flex="1";
         btn.style.padding="12px 0";
@@ -201,7 +188,6 @@
         btn.onmouseover=()=>btn.style.background="linear-gradient(135deg,#d0eaff,#a0d4ff)";
         btn.onmouseout=()=>btn.style.background="linear-gradient(135deg,#fefefe,#e6f7ff)";
     });
-
     buttonWrapper.appendChild(ABtn);
     buttonWrapper.appendChild(BBtn);
     buttonWrapper.appendChild(repeatBtn);
@@ -209,7 +195,61 @@
 
     panel.appendChild(controlArea);
 
+    // ---------------- 新增按钮排 ----------------
+    const navBtnRow = document.createElement("div");
+    Object.assign(navBtnRow.style, {
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around",
+        alignItems: "center",
+        padding: "8px 0",
+        marginTop: "8px",
+        background: "rgba(255,255,255,0.9)"
+    });
+
+    function createIconButton(symbol, title, onClick){
+        const btn = document.createElement("div");
+        btn.textContent = symbol;
+        btn.title = title;
+        Object.assign(btn.style, {
+            fontSize: "22px",
+            cursor: "pointer",
+            padding: "6px 12px",
+            borderRadius: "10px",
+            userSelect: "none",
+            transition: "0.25s",
+        });
+        btn.onmouseenter = () => btn.style.background = "rgba(0,0,0,0.08)";
+        btn.onmouseleave = () => btn.style.background = "transparent";
+        btn.onclick = onClick;
+        return btn;
+    }
+
+    const btnLeft  = createIconButton("⬅️","上一个", ()=>{ 
+        if(words.length) wordIndex = Math.max(wordIndex-1,0); speakNext(); 
+    });
+    const btnRight = createIconButton("➡️","下一个", ()=>{ 
+        if(words.length) wordIndex = Math.min(wordIndex+1,words.length-1); speakNext(); 
+    });
+    const btnBoost = createIconButton("⚡","倍速", ()=>{ 
+        const speeds=[0.75,1,1.25,1.5,2];
+        let curIndex = speeds.indexOf(parseFloat(repeatInput.dataset.speed || 1));
+        curIndex = (curIndex+1)%speeds.length;
+        const newSpeed = speeds[curIndex];
+        repeatInput.dataset.speed = newSpeed;
+        speechSynthesis.cancel();
+        speakNext();
+        alert(`倍速设置为: ${newSpeed}x`);
+    });
+
+    navBtnRow.appendChild(btnLeft);
+    navBtnRow.appendChild(btnRight);
+    navBtnRow.appendChild(btnBoost);
+    panel.appendChild(navBtnRow);
+
+    // ======================
     // 进度条
+    // ======================
     const progressBar=document.createElement("input");
     progressBar.type="range"; progressBar.min=0; progressBar.value=0; progressBar.step=1;
     Object.assign(progressBar.style,{
@@ -222,60 +262,12 @@
 
     document.body.appendChild(panel);
 
-    const newBtnRow = document.createElement("div");
-    Object.assign(newBtnRow.style, {
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "space-around",
-        alignItems: "center",
-        padding: "10px 12px",
-        background: "rgba(255,255,255,0.85)",
-        borderTop: "1px solid #ddd",
-        backdropFilter: "blur(10px)"
-    });
-
-    function createIconButton(symbol, title, onClick) {
-        const btn = document.createElement("div");
-        btn.textContent = symbol;
-        btn.title = title;
-        Object.assign(btn.style, {
-            fontSize: "22px",
-            cursor: "pointer",
-            padding: "6px 12px",
-            borderRadius: "10px",
-            userSelect: "none",
-            transition: "0.25s",
-        });
-        btn.onmouseenter = () => (btn.style.background = "rgba(0,0,0,0.08)");
-        btn.onmouseleave = () => (btn.style.background = "transparent");
-        btn.onclick = onClick;
-        return btn;
-    }
-
-    const btnLeft  = createIconButton("⬅️", "Back", () => console.log("Left clicked"));
-    const btnRight = createIconButton("➡️", "Forward", () => console.log("Right clicked"));
-    const btnBoost = createIconButton("⚡", "Boost", () => console.log("Boost clicked"));
-
-    newBtnRow.appendChild(btnLeft);
-    newBtnRow.appendChild(btnRight);
-    newBtnRow.appendChild(btnBoost);
-
-    panel.appendChild(newBtnRow);
-
-    // ====== 初始居中（像素定位） ======
-    const rect = panel.getBoundingClientRect();
-    panel.style.left = '50%';
-    panel.style.top  = '50%';
-    panel.style.transform = 'translate(-50%, -50%)';
-	panel.style.right = 'auto';
-    panel.style.bottom = 'auto';
-
     // ======================
-    // 拖动
+    // 拖动逻辑
     // ======================
     let isDragging=false, offsetX=0, offsetY=0;
     panel.addEventListener('mousedown', e=>{
-        if(["BUTTON","INPUT","SELECT"].includes(e.target.tagName)) return;
+        if(["BUTTON","INPUT","SELECT","DIV"].includes(e.target.tagName)) return;
         isDragging=true; offsetX=e.clientX-panel.offsetLeft; offsetY=e.clientY-panel.offsetTop;
         panel.style.cursor="move"; e.preventDefault();
     });
@@ -300,9 +292,6 @@
         rowStatus.textContent=`正在播放：第${wordIndex+1}行 / 共${words.length}行`;
     }
 
-    // ======================
-    // 文件加载
-    // ======================
     hiddenInput.onchange=()=>{
         const file=hiddenInput.files[0]; 
         if(!file) return;
@@ -317,9 +306,6 @@
         reader.readAsText(file);
     };
 
-    // ======================
-    // 朗读函数
-    // ======================
     function speakNext(){
         if(!words.length || isPaused || isStopped) return;
         const sentence=words[wordIndex];
@@ -327,6 +313,7 @@
         if(speech) speechSynthesis.cancel();
         speech=new SpeechSynthesisUtterance(sentence);
         speech.lang=voiceSelect.value;
+        speech.rate=parseFloat(repeatInput.dataset.speed||1);
         speech.onend=()=>{
             if(isPaused || isStopped) return;
             repeatCount++;
@@ -345,43 +332,31 @@
     }
 
     // ======================
-    // A 按钮逻辑
+    // 现有按钮逻辑
     // ======================
-    ABtn.onclick=()=>{
-        if(ABtn.textContent==="开始" || ABtn.textContent==="继续"){
+    ABtn.onclick=()=>{ 
+        if(ABtn.textContent==="开始" || ABtn.textContent==="继续"){ 
             isStopped=false; isPaused=false; 
-            ABtn.textContent="暂停"; BBtn.textContent="停止"; repeatBtn.textContent="复读";
-            setTimeout(()=>speakNext(),0);
-        } else if(ABtn.textContent==="暂停"){
+            ABtn.textContent="暂停"; BBtn.textContent="停止"; repeatBtn.textContent="复读"; 
+            setTimeout(()=>speakNext(),0); 
+        } else if(ABtn.textContent==="暂停"){ 
             isPaused=true; ABtn.textContent="继续"; BBtn.textContent="开始"; speechSynthesis.pause();
         }
     };
-
-    // ======================
-    // B 按钮逻辑
-    // ======================
-    BBtn.onclick=()=>{
-        if(BBtn.textContent==="开始"){
+    BBtn.onclick=()=>{ 
+        if(BBtn.textContent==="开始"){ 
             isStopped=false; isPaused=false; wordIndex=0; repeatCount=0; ABtn.textContent="暂停"; BBtn.textContent="停止"; repeatBtn.textContent="复读"; 
-            setTimeout(()=>speakNext(),0);
-        } else if(BBtn.textContent==="停止"){
+            setTimeout(()=>speakNext(),0); 
+        } else if(BBtn.textContent==="停止"){ 
             isStopped=true; isPaused=false; speechSynthesis.cancel(); ABtn.textContent="继续"; BBtn.textContent="开始";
         }
     };
-
-    // ======================
-    // 复读按钮
-    // ======================
-    repeatBtn.onclick=()=>{
+    repeatBtn.onclick=()=>{ 
         if(!words.length || isPaused || isStopped) return;
         isRepeating=!isRepeating;
         repeatBtn.textContent=isRepeating?"取消复读":"复读";
         if(isRepeating){ repeatCount=0; speechSynthesis.cancel(); setTimeout(()=>speakNext(),0); }
     };
-
-    // ======================
-    // 进度条拖动
-    // ======================
     progressBar.addEventListener("input", ()=>{
         if(!words.length) return;
         wordIndex=parseInt(progressBar.value,10); repeatCount=0;
