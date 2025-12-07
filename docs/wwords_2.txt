@@ -1,0 +1,491 @@
+trail
+The hikers followed a narrow mountain trail.
+徒步者沿着一条狭窄的山间小路前进。
+The suspect left a trail of clues.
+嫌疑人留下了一串线索。
+Our team is trailing by ten points.
+我们队落后10分。
+
+launched
+The company launched a new product last month.
+公司上个月推出了一款新产品。
+The rocket was launched successfully.
+火箭成功发射。
+They launched a campaign to reduce pollution.
+他们发起了一个减少污染的运动。
+
+sale 
+The store is having a big sale today.（商店今天大促销。）
+Car sales increased this year.（今年汽车销量增加。）
+The house is for sale.（这栋房子在出售。）
+
+margin 
+The profit margin grew last quarter.（上季度利润率提高了。）
+Write your name in the margin.（在页边空白处写你的名字。）
+They won by a narrow margin.（他们以微弱优势获胜。）
+
+stock
+He invested in tech stocks.（他投资了科技股。）
+The store is out of stock.（商店缺货。）
+They keep a large stock of raw materials.（他们储备大量原材料。）
+
+section 
+Read the first section of the report.（阅读报告第一部分。）
+This section of the city is crowded.（城市这一片区域很拥挤。）
+Divide the cake into six sections.（把蛋糕分成六块。）
+
+procedure
+Follow the safety procedures.（遵守安全流程。）
+The procedure takes two hours.（该流程需要两小时。）
+We changed the procedure to improve efficiency.（我们改变流程以提高效率。）
+
+specify
+Please specify your requirements.（请明确说明你的需求。）
+The document specifies the rules.（文档说明了规则。）
+He didn't specify a date.（他没有指定日期。）
+
+simultaneously
+The system processes multiple tasks simultaneously.（系统同时处理多个任务。）
+They spoke simultaneously.（他们同时说话。）
+Two events occurred simultaneously.（两个事件同时发生。）
+
+conclude 
+The meeting concluded at noon.（会议在中午结束。）
+We concluded that the idea is feasible.（我们得出结论：这个方案可行。）
+He concluded his speech with a story.（他用一个故事结束演讲。）
+
+consistent 
+His performance is consistent over time.（他的表现始终如一。）
+The results are consistent with our hypothesis.（结果与我们的假设一致。）
+Be consistent in your efforts.（在努力上保持一致。）
+
+approach 
+We need a new approach to solve this problem.（我们需要一个新方法来解决问题。）
+The train is approaching the station.（火车正接近车站。）
+She has a friendly approach to her colleagues.（她对同事态度友好。）
+
+essential
+Water is essential for life.（水是生命必需的。）
+It's essential to follow the rules.（遵守规则是必要的。）
+The essential question remains unanswered.（关键问题仍未得到解答。
+
+collapse
+The building collapsed after the earthquake.（地震后建筑倒塌。）
+He collapsed from exhaustion.（他因精疲力竭而倒下。）
+The plan collapsed due to lack of funding.（计划因资金不足而失败。）
+
+elapse 
+Two hours elapsed before the train arrived.（火车到达前两小时过去了。）
+Much time has elapsed since we last met.（自上次见面已经过去很久了。）
+
+urge 
+I urge you to reconsider.（我强烈建议你重新考虑。）
+He had the urge to run away.（他有逃跑的冲动。）
+Environmentalists urge action to combat climate change.（环保人士敦促采取行动应对气候变化。）
+
+participate
+Students are encouraged to participate in class.（鼓励学生积极参与课堂。）
+Many countries participated in the conference.（许多国家参加了会议。）
+He refused to participate in the debate.（他拒绝参加辩论。）
+
+suppose 
+Suppose we leave at 7 a.m., will we arrive on time?（假设我们早上7点出发，我们能准时到吗？）
+I suppose he is busy.（我猜他很忙。）
+Let's suppose that this plan works.（假设这个计划可行。）
+
+engage
+The speaker engaged the audience.（演讲者吸引了听众。）
+He engaged in volunteer work.（他参与志愿工作。）
+The company engaged a new consultant.（公司聘请了一位新顾问。）
+
+I think this feature could come into play for the heavy user model. come into play = 产生作用；发挥作用（常用，地道）
+we go full throttle on the making sure we have the environment 我们全力以赴确保环境到位（“go full throttle”=全力推进，非常地道）
+I think that's where we stand.
+Let's wrap up this meeting. 让我们结束这次会议。 wrap up = 结束；收尾（非常常用，口语/会议中都地道）
+
+major 
+He is a major player in the tech industry.（他是科技行业的重要人物。）
+She majors in computer science.（她主修计算机科学。）
+This is a major problem.（这是一个重大问题。）
+
+throttle 
+He pressed the throttle to accelerate the car.（他踩油门加速汽车。）
+The company throttled production due to low demand.（由于需求低，公司限制了产量。）
+
+typical 
+This is a typical example of her work.（这是她作品的典型例子。）
+It's typical to feel nervous before an exam.（考试前感到紧张很常见。）
+
+estimate 
+I estimate the project will take two weeks.（我估计这个项目需要两周。）
+The repair cost was estimated at $500.（修理费估计为500美元。）
+
+drag 
+She dragged the box across the floor.（她把箱子拖过地板。）
+The meeting dragged on for hours.（会议拖延了好几个小时。）
+
+specifically 
+I specifically asked for a vegetarian meal.（我特别要求素食餐。）
+The report specifically mentions this issue.（报告明确提到这个问题。）
+
+especially 
+I love tea, especially green tea.（我喜欢喝茶，尤其是绿茶。）
+This rule is important, especially for beginners.（这条规则很重要，尤其是对初学者。）
+
+credentials 
+She presented her credentials to the manager.（她向经理出示了资历证书。）
+The website requires login credentials.（该网站需要登录凭证。）
+
+involved 
+He was involved in the project.（他参与了这个项目。）
+The situation is more involved than it seems.（情况比看起来复杂。）
+
+accelerate 
+The car accelerated quickly.（汽车迅速加速。）
+New policies accelerate economic growth.（新政策促进经济增长。）
+
+calculate 
+He calculated the total cost.（他计算了总费用。）
+We need to calculate the risk.（我们需要评估风险。）
+
+attend 
+I will attend the meeting.（我会参加会议。）
+She attends to her patients carefully.（她细心照顾病人。）
+
+properly 
+Make sure the equipment is installed properly.（确保设备安装正确。）
+He didn’t behave properly.（他行为不当。）
+
+introduction 
+The book has a brief introduction.（这本书有一个简短的导言。）
+He gave a formal introduction of the guest.（他正式介绍了来宾。）
+
+hesitate
+Don’t hesitate to ask questions.（不要犹豫提出问题。）
+He hesitated before answering.（他在回答前犹豫了一下。）
+
+dedicated
+She is dedicated to her work.（她专注于工作。）
+This server is dedicated to backup tasks.（这台服务器专用于备份任务。）
+
+spare 
+Do you have a spare pen?（你有备用笔吗？）
+Can you spare a few minutes?（你能抽出几分钟吗？）
+
+affected
+Many people were affected by the storm.（许多人受暴风雨影响。）
+He spoke in an affected manner.（他说话装腔作势。）
+
+critical
+Time is critical in an emergency.（在紧急情况下时间至关重要。）
+She gave a critical review of the book.（她对这本书作了批评性的评论。）
+
+refine
+The engineer refined the design.（工程师改进了设计。）
+Sugar is refined from sugarcane.（糖从甘蔗中提炼。）
+
+sufficient 
+We have sufficient evidence.（我们有足够的证据。）
+
+capacity
+The hall has a seating capacity of 500.（大厅可容纳500人。）
+He has the capacity to lead.（他有领导能力。）
+
+capability 
+The software has many capabilities.（软件有很多功能。）
+
+conservative
+He has a conservative investment style.（他的投资风格很保守。）
+
+supervision
+The project is under his supervision.（项目在他的监督下进行。）
+
+general availability
+The software reached general availability in May.（软件于五月公开发布。）
+
+It depends on the case.
+ We got ahead 
+Sorry to bother you, am I disturbing you?
+
+general
+This is a general guideline.（这是一个通用指南。）
+He met the general of the army.（他见了陆军将军。）
+In general, people like holidays.（一般来说，人们喜欢假期。）
+
+availability 
+Check the availability of the rooms.（检查房间的可用性。）
+The software’s availability is 99.9%.（软件可用性为99.9%。）
+
+regular 
+We have regular meetings every Monday.（我们每周一有定期会议。）
+He is a regular customer.（他是常客。）
+
+applicable 
+The rules are applicable to everyone.（这些规则适用于所有人。）
+This fee is not applicable to students.（学生不适用此费用。）
+
+access
+I need access to the database.（我需要访问数据库。）
+The building has wheelchair access.（这栋楼有无障碍入口。）
+
+commit
+He committed to finishing the project.（他承诺完成项目。）
+She committed a mistake.（她犯了一个错误。）
+
+track 
+The runners are on the track.（跑步者在跑道上。）
+We track progress every week.（我们每周追踪进展。）
+
+declare 
+The country declared independence in 1776.（该国于1776年宣布独立。）
+You must declare your income to the tax office.（你必须向税务局申报收入。）
+
+apply
+She applied for the job.（她申请这份工作。）
+This rule applies to everyone.（这条规则适用于所有人。）
+He applied paint to the wall.（他把油漆涂在墙上。）
+
+stick 
+He sticks to his principles.（他坚持自己的原则。）
+Use a stick to prop the door open.（用棍子支开门。）
+
+bunch 
+A bunch of flowers is on the table.（桌上有一束花。）
+We went out with a bunch of friends.（我们和一群朋友出去玩。）
+
+schema
+The database follows a relational schema.（数据库遵循关系模式。）
+This schema represents the workflow.（这个结构表示工作流程。）
+
+scroll
+Scroll down to see more options.（向下滚动以查看更多选项。）
+Ancient scrolls were stored in the library.（古老的卷轴收藏在图书馆里。）
+
+convention 
+They attended a tech convention.（他们参加了一个科技大会。）
+It is a convention to shake hands when meeting.（见面握手是一种惯例。）
+
+attribute
+Patience is an important attribute of a teacher.（耐心是教师的重要品质。）
+He attributed his success to hard work.（他把成功归因于努力。）
+
+interrupt 
+Don't interrupt me while I’m speaking.（我说话时不要打断我。）
+The meeting was interrupted by a fire alarm.（会议被火警打断。）
+
+reflect 
+The mirror reflects light.（镜子反射光。）
+The results reflect the quality of the work.（结果反映了工作的质量。）
+She reflected on her mistakes.（她反思了自己的错误。）
+
+tricky
+This problem is tricky.（这个问题很棘手。）
+He's a tricky opponent in chess.（他是个狡猾的棋手对手。）
+
+invoke 
+The program invokes a system function.（程序调用了系统函数。）
+They invoked his name in the ceremony.（他们在仪式上祈求他的保佑。）
+
+stuff 
+I need to pack my stuff.（我需要打包我的东西。）
+He stuffed the bag with clothes.（他把包塞满了衣服。）
+The pillow is stuffed with feathers.（枕头里填充了羽毛。）
+
+extract
+Extract data from the database.（从数据库中提取数据。）
+Vanilla extract is used in baking.（烘焙中使用香草精。）
+
+cast 
+She cast a stone into the river.（她把石头扔进河里。）
+The metal was cast into a sculpture.（金属被铸造成雕塑。）
+The movie has an amazing cast.（这部电影有很棒的演员阵容。）
+
+rud 
+The sink is full of crud.（水槽里满是污垢。）
+Remove the crud from the system logs.（清理系统日志中的废信息。）
+
+exist
+Dinosaurs no longer exist.（恐龙已经不存在了。）
+Problems exist in every organization.（每个组织都有问题。）
+
+pattern
+The wallpaper has a floral pattern.（墙纸有花卉图案。）
+Traffic patterns change during holidays.（节假日交通模式变化。）
+
+specification
+The product meets the technical specifications.（产品符合技术规格。）
+Check the specifications before ordering.（下单前检查规格。）
+
+basis
+Decisions are made on a case-by-case basis.（决策是逐案做出的。）
+His argument lacks a solid basis.（他的论点缺乏坚实依据。）
+
+state
+He stated his opinion clearly.（他清楚地陈述了自己的意见。）
+The machine is in a stable state.（机器处于稳定状态。）
+The United States is a large country.（美国是一个大国。）
+
+subscription 
+I have a subscription to that magazine.（我订阅了那本杂志。）
+He made a subscription to the charity.（他向慈善机构捐款。）
+
+identity 
+Verify your identity with a passport.（用护照验证身份。）
+Cultural identity is important.（文化认同很重要。）
+
+aware
+I was not aware of the rules.（我不知道这些规则。）
+Be aware of the risks involved.（意识到相关风险。）
+
+compatible
+This software is compatible with Windows.（这个软件与 Windows 兼容。）
+They are compatible as partners.（他们作为伙伴很合拍。）
+
+infrastructure
+The city is investing in infrastructure.（该城市正在投资基础设施。）
+Good infrastructure is key to economic growth.（良好的基础设施是经济增长的关键。）
+
+fairly 
+He did fairly well in the exam.（他考试成绩相当不错。）
+The decision was made fairly.（决策是公平做出的。）
+
+figure
+The sales figure increased by 10%.（销售数字增长了10%。）
+He is a prominent figure in the industry.（他是业界重要人物。）
+I can't figure out the solution.（我想不出解决办法。）
+
+overlap 
+The two circles overlap.（两个圆重叠。）
+Their responsibilities overlap.（他们的职责有交叉。）
+
+duplicate 
+Please duplicate the files for backup.（请复制文件以备份。）
+I have a duplicate key.（我有一把备用钥匙。）
+
+course 
+She is taking a math course.（她在上数学课。）
+The ship changed its course.（船改变了航向。）
+He had no choice but to accept the course of events.（他别无选择，只能接受事态的发展。）
+
+profile
+Update your online profile.（更新你的在线简介。）
+The mountain has a steep profile.（这座山的轮廓很陡。）
+
+comment 
+He commented on the new policy.（他对新政策发表评论。）
+Leave a comment below the article.（在文章下留言。）
+
+recommend
+I recommend this restaurant.（我推荐这家餐馆。）
+Doctors recommend regular exercise.（医生建议定期锻炼。）
+
+generic format
+Use a generic format for the report.（报告使用通用格式。）
+The software can read generic formats.（软件可以读取通用格式。）
+
+aspect
+We need to consider every aspect of the problem.（我们需要考虑问题的每个方面。）
+The building has a modern aspect.（建筑外观现代。）
+
+command 
+The officer gave a command.（军官下达命令。）
+She commands respect from her team.（她赢得了团队的尊重。）
+He has a good command of English.（他英语掌握得很好。）
+
+drift 
+The boat drifted with the current.（船随水流漂流。）
+The conversation drifted to politics.（谈话逐渐转向政治话题。）
+
+detection 
+Early detection of cancer is crucial.（早期发现癌症至关重要。）
+Smoke detectors are for fire detection.（烟雾探测器用于火灾发现。）
+
+simplify 
+We need to simplify the process.（我们需要简化流程。）
+The manual was simplified for beginners.（手册为初学者做了简化。）
+
+conflict 
+There is a conflict between the two teams.（两队之间有冲突。）
+Her actions conflict with her words.（她的行为与言辞不一致。）
+
+picky
+He's very picky about food.（他对食物很挑剔。）
+Don't be so picky about small details.（不要对小细节过于挑剔。）
+
+roll
+Roll the ball to me.（把球滚给我。）
+She rolled the dough.（她擀面团。）
+Let's roll out the new system next week.（下周推出新系统。）
+
+invocation
+The priest gave an invocation before the ceremony.（牧师在仪式前祈祷。）
+Function invocation in programming calls the method.（编程中函数调用调用方法。）
+
+legal 
+They sought legal advice.（他们寻求法律建议。）
+It's legal to park here.（这里停车是合法的。）
+
+criteria
+The selection criteria are clear.（选择标准很清楚。）
+We need to set criteria for evaluating proposals.（我们需要制定评估提案的准则。）
+Academic excellence is one of the main criteria for admission.（学术优秀是录取的主要标准之一。）
+
+formal 
+He wore a formal suit to the interview.（他穿着正式西装去面试。）
+Formal approval is required for this process.（这个流程需要正式批准。）
+A formal letter is better than an email in this case.（在这种情况下正式信件比电子邮件更合适。）
+
+progress 
+The project is making good progress.（项目进展顺利。）
+He has shown progress in learning English.（他在英语学习上有进步。）
+We need to monitor progress regularly.（我们需要定期监控进展。）
+
+outages
+The internet outages affected thousands of users.（互联网中断影响了成千上万的用户。）
+Power outages are common during storms.（暴风雨期间停电很常见。）
+The company reported several service outages last week.（公司报告上周有几次服务中断。）
+
+regulations
+Follow safety regulations at all times.（始终遵守安全规定。）
+The new regulations affect small businesses.（新法规影响小企业。）
+Environmental regulations have become stricter.（环境法规变得更加严格。）
+
+digest 
+He read a digest of the news.（他读了新闻摘要。）
+Food is digested in the stomach.（食物在胃里消化。）
+It takes time to digest complex information.（理解复杂信息需要时间。）
+
+quality
+The quality of this product is excellent.（这个产品质量很好。）
+We must maintain high quality in our work.（我们必须保持工作高质量。）
+She has the qualities of a good leader.（她具备优秀领导者的品质。）
+
+ceremony 
+The graduation ceremony was held outdoors.（毕业典礼在户外举行。）
+A wedding ceremony usually involves vows and rings.（婚礼仪式通常包括誓言和戒指。）
+The award ceremony honored top performers.（颁奖典礼表彰了表现优异的人。）
+
+priest 
+The priest led the church service.（神父主持了教堂礼拜。）
+A priest blessed the couple at their wedding.（神父在婚礼上为新人祝福。）
+He became a priest after years of study.（他经过多年学习后成为神父。）
+
+pack
+Pack your bags for the trip.（为旅行打包行李。）
+They packed the goods into boxes.（他们把货物装箱。）
+A pack of wolves roamed the forest.（一群狼在森林里游荡。）
+
+crucial 
+It is crucial to follow instructions carefully.（仔细遵守说明非常重要。）
+This decision is crucial for the company’s future.（这个决定对公司未来至关重要。）
+Timing is crucial in this operation.（在这次行动中时机至关重要。）
+
+contract 
+They signed a contract yesterday.（他们昨天签署了合同。）
+Muscles contract when exercising.（肌肉在运动时收缩。）
+The company contracted a supplier for raw materials.（公司与供应商签订了原材料合同。）
+
+survey
+We conducted a survey of customer satisfaction.（我们进行了一项客户满意度调查。）
+The land was surveyed for construction.（土地为建设进行勘测。）
+He surveyed the scene carefully.（他仔细观察了现场。）
