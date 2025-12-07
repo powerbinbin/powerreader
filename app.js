@@ -222,6 +222,46 @@
 
     document.body.appendChild(panel);
 
+    const newBtnRow = document.createElement("div");
+    Object.assign(newBtnRow.style, {
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around",
+        alignItems: "center",
+        padding: "10px 12px",
+        background: "rgba(255,255,255,0.85)",
+        borderTop: "1px solid #ddd",
+        backdropFilter: "blur(10px)"
+    });
+
+    function createIconButton(symbol, title, onClick) {
+        const btn = document.createElement("div");
+        btn.textContent = symbol;
+        btn.title = title;
+        Object.assign(btn.style, {
+            fontSize: "22px",
+            cursor: "pointer",
+            padding: "6px 12px",
+            borderRadius: "10px",
+            userSelect: "none",
+            transition: "0.25s",
+        });
+        btn.onmouseenter = () => (btn.style.background = "rgba(0,0,0,0.08)");
+        btn.onmouseleave = () => (btn.style.background = "transparent");
+        btn.onclick = onClick;
+        return btn;
+    }
+
+    const btnLeft  = createIconButton("⬅️", "Back", () => console.log("Left clicked"));
+    const btnRight = createIconButton("➡️", "Forward", () => console.log("Right clicked"));
+    const btnBoost = createIconButton("⚡", "Boost", () => console.log("Boost clicked"));
+
+    newBtnRow.appendChild(btnLeft);
+    newBtnRow.appendChild(btnRight);
+    newBtnRow.appendChild(btnBoost);
+
+    panel.appendChild(newBtnRow);
+
     // ====== 初始居中（像素定位） ======
     const rect = panel.getBoundingClientRect();
     panel.style.left = '50%';
