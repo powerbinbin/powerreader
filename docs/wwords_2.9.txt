@@ -1,0 +1,43 @@
+figure
+The sales figure increased by 10%.（销售数字增长了10%。）
+He is a prominent figure in the industry.（他是业界重要人物。）
+I can't figure out the solution.（我想不出解决办法。）
+
+overlap 
+The two circles overlap.（两个圆重叠。）
+Their responsibilities overlap.（他们的职责有交叉。）
+
+duplicate 
+Please duplicate the files for backup.（请复制文件以备份。）
+I have a duplicate key.（我有一把备用钥匙。）
+
+course 
+She is taking a math course.（她在上数学课。）
+The ship changed its course.（船改变了航向。）
+He had no choice but to accept the course of events.（他别无选择，只能接受事态的发展。）
+
+profile
+Update your online profile.（更新你的在线简介。）
+The mountain has a steep profile.（这座山的轮廓很陡。）
+
+comment 
+He commented on the new policy.（他对新政策发表评论。）
+Leave a comment below the article.（在文章下留言。）
+
+recommend
+I recommend this restaurant.（我推荐这家餐馆。）
+Doctors recommend regular exercise.（医生建议定期锻炼。）
+
+generic format
+Use a generic format for the report.（报告使用通用格式。）
+The software can read generic formats.（软件可以读取通用格式。）
+
+aspect
+We need to consider every aspect of the problem.（我们需要考虑问题的每个方面。）
+The building has a modern aspect.（建筑外观现代。）
+
+command 
+The officer gave a command.（军官下达命令。）
+She commands respect from her team.（她赢得了团队的尊重。）
+He has a good command of English.（他英语掌握得很好。）
+

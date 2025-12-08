@@ -1,0 +1,37 @@
+capacity
+The hall has a seating capacity of 500.（大厅可容纳500人。）
+He has the capacity to lead.（他有领导能力。）
+
+capability 
+The software has many capabilities.（软件有很多功能。）
+
+conservative
+He has a conservative investment style.（他的投资风格很保守。）
+
+supervision
+The project is under his supervision.（项目在他的监督下进行。）
+
+general availability
+The software reached general availability in May.（软件于五月公开发布。）
+
+It depends on the case.
+ We got ahead 
+Sorry to bother you, am I disturbing you?
+
+general
+This is a general guideline.（这是一个通用指南。）
+He met the general of the army.（他见了陆军将军。）
+In general, people like holidays.（一般来说，人们喜欢假期。）
+
+availability 
+Check the availability of the rooms.（检查房间的可用性。）
+The software’s availability is 99.9%.（软件可用性为99.9%。）
+
+regular 
+We have regular meetings every Monday.（我们每周一有定期会议。）
+He is a regular customer.（他是常客。）
+
+applicable 
+The rules are applicable to everyone.（这些规则适用于所有人。）
+This fee is not applicable to students.（学生不适用此费用。）
+

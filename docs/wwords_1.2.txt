@@ -1,0 +1,53 @@
+service 
+The hotel offers excellent service. 这家酒店提供优质服务。
+My car needs servicing. 我的车需要维修。
+He joined the military service in 2010.
+
+separate 
+Keep work and personal life separate. 把工作和个人生活分开。
+They decided to separate after 10 years of marriage. 他们决定离婚。
+Separate the eggs into two bowls. 把鸡蛋分到两个碗里。
+
+deserialize 
+You need to deserialize the JSON string before using it. 
+The server deserializes incoming data automatically. 服务器会自动反序列化接收的数据。
+
+corresponding 
+Match each question with its corresponding answer. 将每个问题与对应的答案匹配。
+The temperature rose, and the corresponding pressure increased. 温度升高，相应的压力也增加。
+
+complete 
+Please complete the form. 请填写表格。
+He has a complete set of the books. 他有一整套书。
+The task was completed successfully. 任务顺利完成。
+If something is complete, it has been finished. 
+To complete a set or group means to provide the last item that is needed to make it a full set or group.
+The project is nearing completion.
+We were in complete agreement. 
+It came as a complete surprise.
+
+I got a chance to resume on the activity which we discussed last time, separation of KVDB stats for PCC and PCG to re-assess the feasibility. 
+We can go over the findings with the latest load tests which have been captured in the slides.
+
+virus 
+The virus spreads quickly. 病毒传播很快。
+My computer got infected with a virus. 我的电脑中了病毒。
+
+awareness         
+The campaign raises awareness about climate change. 宣传活动提高了公众对气候变化的意识。
+Awareness of personal safety is important. 个人安全意识很重要。
+She has a good awareness of social issues. 她对社会问题很有认识。
+
+strategy 
+Our marketing strategy focuses on social media. 我们的营销策略集中在社交媒体。
+Chess requires careful strategy. 国际象棋需要精心的策略。
+They developed a long-term strategy for growth. 他们制定了长期发展战略。
+
+determines 
+Price often determines demand. 价格通常决定需求。
+Hard work determines success. 努力决定成败。
+Genetics determines eye color. 遗传决定眼睛颜色。
+
+wrap 
+She wrapped the baby in a blanket. 她用毯子把婴儿裹起来。
+The chocolate is individually wrapped. 巧克力是单独包装的。

@@ -1,0 +1,56 @@
+trail
+The hikers followed a narrow mountain trail.
+徒步者沿着一条狭窄的山间小路前进。
+The suspect left a trail of clues.
+嫌疑人留下了一串线索。
+Our team is trailing by ten points.
+我们队落后10分。
+
+launched
+The company launched a new product last month.
+公司上个月推出了一款新产品。
+The rocket was launched successfully.
+火箭成功发射。
+They launched a campaign to reduce pollution.
+他们发起了一个减少污染的运动。
+
+sale 
+The store is having a big sale today.（商店今天大促销。）
+Car sales increased this year.（今年汽车销量增加。）
+The house is for sale.（这栋房子在出售。）
+
+margin 
+The profit margin grew last quarter.（上季度利润率提高了。）
+Write your name in the margin.（在页边空白处写你的名字。）
+They won by a narrow margin.（他们以微弱优势获胜。）
+
+stock
+He invested in tech stocks.（他投资了科技股。）
+The store is out of stock.（商店缺货。）
+They keep a large stock of raw materials.（他们储备大量原材料。）
+
+section 
+Read the first section of the report.（阅读报告第一部分。）
+This section of the city is crowded.（城市这一片区域很拥挤。）
+Divide the cake into six sections.（把蛋糕分成六块。）
+
+procedure
+Follow the safety procedures.（遵守安全流程。）
+The procedure takes two hours.（该流程需要两小时。）
+We changed the procedure to improve efficiency.（我们改变流程以提高效率。）
+
+specify
+Please specify your requirements.（请明确说明你的需求。）
+The document specifies the rules.（文档说明了规则。）
+He didn't specify a date.（他没有指定日期。）
+
+simultaneously
+The system processes multiple tasks simultaneously.（系统同时处理多个任务。）
+They spoke simultaneously.（他们同时说话。）
+Two events occurred simultaneously.（两个事件同时发生。）
+
+conclude 
+The meeting concluded at noon.（会议在中午结束。）
+We concluded that the idea is feasible.（我们得出结论：这个方案可行。）
+He concluded his speech with a story.（他用一个故事结束演讲。）
+

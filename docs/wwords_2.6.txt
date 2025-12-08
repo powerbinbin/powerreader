@@ -1,0 +1,41 @@
+access
+I need access to the database.（我需要访问数据库。）
+The building has wheelchair access.（这栋楼有无障碍入口。）
+
+commit
+He committed to finishing the project.（他承诺完成项目。）
+She committed a mistake.（她犯了一个错误。）
+
+track 
+The runners are on the track.（跑步者在跑道上。）
+We track progress every week.（我们每周追踪进展。）
+
+declare 
+The country declared independence in 1776.（该国于1776年宣布独立。）
+You must declare your income to the tax office.（你必须向税务局申报收入。）
+
+apply
+She applied for the job.（她申请这份工作。）
+This rule applies to everyone.（这条规则适用于所有人。）
+He applied paint to the wall.（他把油漆涂在墙上。）
+
+stick 
+He sticks to his principles.（他坚持自己的原则。）
+Use a stick to prop the door open.（用棍子支开门。）
+
+bunch 
+A bunch of flowers is on the table.（桌上有一束花。）
+We went out with a bunch of friends.（我们和一群朋友出去玩。）
+
+schema
+The database follows a relational schema.（数据库遵循关系模式。）
+This schema represents the workflow.（这个结构表示工作流程。）
+
+scroll
+Scroll down to see more options.（向下滚动以查看更多选项。）
+Ancient scrolls were stored in the library.（古老的卷轴收藏在图书馆里。）
+
+convention 
+They attended a tech convention.（他们参加了一个科技大会。）
+It is a convention to shake hands when meeting.（见面握手是一种惯例。）
+

@@ -1,0 +1,43 @@
+attribute
+Patience is an important attribute of a teacher.（耐心是教师的重要品质。）
+He attributed his success to hard work.（他把成功归因于努力。）
+
+interrupt 
+Don't interrupt me while I’m speaking.（我说话时不要打断我。）
+The meeting was interrupted by a fire alarm.（会议被火警打断。）
+
+reflect 
+The mirror reflects light.（镜子反射光。）
+The results reflect the quality of the work.（结果反映了工作的质量。）
+She reflected on her mistakes.（她反思了自己的错误。）
+
+tricky
+This problem is tricky.（这个问题很棘手。）
+He's a tricky opponent in chess.（他是个狡猾的棋手对手。）
+
+invoke 
+The program invokes a system function.（程序调用了系统函数。）
+They invoked his name in the ceremony.（他们在仪式上祈求他的保佑。）
+
+stuff 
+I need to pack my stuff.（我需要打包我的东西。）
+He stuffed the bag with clothes.（他把包塞满了衣服。）
+The pillow is stuffed with feathers.（枕头里填充了羽毛。）
+
+extract
+Extract data from the database.（从数据库中提取数据。）
+Vanilla extract is used in baking.（烘焙中使用香草精。）
+
+cast 
+She cast a stone into the river.（她把石头扔进河里。）
+The metal was cast into a sculpture.（金属被铸造成雕塑。）
+The movie has an amazing cast.（这部电影有很棒的演员阵容。）
+
+rud 
+The sink is full of crud.（水槽里满是污垢。）
+Remove the crud from the system logs.（清理系统日志中的废信息。）
+
+exist
+Dinosaurs no longer exist.（恐龙已经不存在了。）
+Problems exist in every organization.（每个组织都有问题。）
+

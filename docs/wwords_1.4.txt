@@ -1,0 +1,51 @@
+profit 
+The company made a huge profit last year. 公司去年赚了大笔利润。
+We need to increase our profit margin. 我们需要提高利润率。
+He sold his stocks for a profit. 他卖掉股票赚了一笔。
+
+supply
+The factory supplies goods to many stores. 工厂向许多商店供货。
+Water supply is limited in this area. 该地区水供应有限。
+They supplied food and medicine to the victims. 他们向受灾者提供了食物和药品。
+
+different between require and demand.
+The job demands a lot of patience. 这份工作要求耐心。
+There is high demand for nurses. 护士需求量大。
+
+This course requires basic English. 这门课程需要基础英语。
+
+Meeting the safety requirements is mandatory. 满足安全要求是必须的。
+
+aggregate
+These small contributions aggregate into a large sum. 这些小额捐款汇聚成一大笔款项。
+小进步叠加成一大步：
+Aggregate demand determines economic output. 总需求决定经济产出。
+
+present 
+At present 目前 ; 现在
+present value [金融] 现值 ; 现时值 ; 当前值
+present situation 现状
+How do you read the present situation? 你对目前的形势有何看法？
+How long have you been in your present job? 你干现在这工作多长时间了？
+You use present to describe things and people that exist now, rather than those that existed in the past or those that may exist in the future. 
+The present is the period of time that we are in now and the things that are happening now. 
+
+effectively
+effective demand [经] 有效需求 ; 有效需量 
+effective range [电] 有效范围 ; 有效量限 ; 测量范围
+Something that is effective works well and produces the results that were intended.
+Services need to be organized more effectively than they are at present.
+He has now taken effective control of the country. 他目前已有效地控制了这个国家。
+It has been demonstrated that this drug is effective. 这药已证实是有效的。
+This strategy effectively reduces costs. 
+
+individually 
+These paints can be used individually or in combination. 这些涂料可单独或混合使用。
+We'd better go in a group, not individually. 最好集体去，不要单个儿去。
+The manager spoke to them all individually. 经理逐一和他们各人谈话。
+The items are individually wrapped. 这些物品是单独包装的。
+
+deserialized反序列化的
+serialized   序列化的
+corresponding
+

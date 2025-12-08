@@ -1,0 +1,41 @@
+pattern
+The wallpaper has a floral pattern.（墙纸有花卉图案。）
+Traffic patterns change during holidays.（节假日交通模式变化。）
+
+specification
+The product meets the technical specifications.（产品符合技术规格。）
+Check the specifications before ordering.（下单前检查规格。）
+
+basis
+Decisions are made on a case-by-case basis.（决策是逐案做出的。）
+His argument lacks a solid basis.（他的论点缺乏坚实依据。）
+
+state
+He stated his opinion clearly.（他清楚地陈述了自己的意见。）
+The machine is in a stable state.（机器处于稳定状态。）
+The United States is a large country.（美国是一个大国。）
+
+subscription 
+I have a subscription to that magazine.（我订阅了那本杂志。）
+He made a subscription to the charity.（他向慈善机构捐款。）
+
+identity 
+Verify your identity with a passport.（用护照验证身份。）
+Cultural identity is important.（文化认同很重要。）
+
+aware
+I was not aware of the rules.（我不知道这些规则。）
+Be aware of the risks involved.（意识到相关风险。）
+
+compatible
+This software is compatible with Windows.（这个软件与 Windows 兼容。）
+They are compatible as partners.（他们作为伙伴很合拍。）
+
+infrastructure
+The city is investing in infrastructure.（该城市正在投资基础设施。）
+Good infrastructure is key to economic growth.（良好的基础设施是经济增长的关键。）
+
+fairly 
+He did fairly well in the exam.（他考试成绩相当不错。）
+The decision was made fairly.（决策是公平做出的。）
+
